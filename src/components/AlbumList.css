@@ -1,0 +1,20 @@
+/* AlbumList.css */
+
+/* Individual album card styling */
+.album-card {
+    background-color: #1e1e1e; /* Card background */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  /* Album grid layout */
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust minimum size for smaller cards */
+    gap: 15px; /* Space between album cards */
+    width: 100%; /* Full width */
+  }
+  

@@ -1,0 +1,43 @@
+/* Login.css */
+
+/* Container for the login page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #1db954; /* Spotify's green background */
+  color: white; /* Text color */
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; /* Font similar to Spotify's */
+  text-align: center; /* Center-align text */
+}
+
+/* Logo styling */
+.spotify-logo {
+  height: 100px; /* Set logo height */
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+/* Title styling */
+.login-title {
+  font-size: 2rem; /* Larger font for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Button styling */
+.login-button {
+  background-color: black; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 50px; /* Rounded button corners */
+  font-size: 1rem; /* Font size for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Button hover effect */
+.login-button:hover {
+  background-color: #1db954; /* Change to Spotify green on hover */
+}
